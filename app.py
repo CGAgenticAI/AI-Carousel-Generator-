@@ -163,7 +163,7 @@ if submit:
 
     # Build PPTX
     with st.spinner("Rendering PPTX…"):
-        ppt_buf = build_pptx(carouse
+        ppt_buf = build_pptx(carousel)
         file_name = f"LinkedIn_Carousel_{topic.replace(' ', '_')}.pptx"
 
     st.success("Done! Download your deck below.")
